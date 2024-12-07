@@ -2,9 +2,9 @@ from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from django.utils.translation import gettext as _
 from wagtail.admin.menu import MenuItem
-from wagtail.contrib.modeladmin.helpers import PermissionHelper
-from wagtail.contrib.modeladmin.menus import ModelAdminMenuItem
-from wagtail.contrib.modeladmin.options import ModelAdmin, ModelAdminGroup
+from wagtail_modeladmin.helpers import PermissionHelper
+from wagtail_modeladmin.menus import ModelAdminMenuItem
+from wagtail_modeladmin.options import ModelAdmin, ModelAdminGroup
 from wagtail_tenants.forms import SmtpAuthenticatorForm
 from wagtail_tenants.customers.models import (
     Client,

@@ -1,7 +1,7 @@
-from wagtail.users.views.users import Index as WagtailUsersIndex
-from wagtail.users.views.users import Create as WagtailUsersCreate
-from wagtail.users.views.users import Edit as WagtailUsersEdit
-from wagtail.users.views.users import Delete as WagtailUsersDelete
+from wagtail.users.views.users import IndexView as WagtailUsersIndex
+from wagtail.users.views.users import CreateView as WagtailUsersCreate
+from wagtail.users.views.users import EditView as WagtailUsersEdit
+from wagtail.users.views.users import DeleteView as WagtailUsersDelete
 
 from wagtail.users.views.users import get_users_filter_query
 from django.db.models import Q

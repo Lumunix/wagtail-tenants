@@ -1,7 +1,8 @@
 from django.apps import apps
 from django.urls import re_path
 from wagtail import hooks
-from wagtail.contrib.modeladmin.options import modeladmin_register
+from wagtail_modeladmin.options import ModelAdmin, modeladmin_register
+
 
 import wagtail_tenants.users.views.users as TenantUserViews  # import index, edit, create
 from wagtail_tenants.utils import get_allowed_features, get_tenant_aware_apps
